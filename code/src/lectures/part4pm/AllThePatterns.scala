@@ -113,8 +113,8 @@ object AllThePatterns extends App{
     //Vai dar strings pq a JVM faz um negócio chamado Type Erasure, ou seja, ignora os tipos
     //Ou seja, na prática fica assim
 //    val numbersMatch = numbers match {
-//        case listStrings: List[String] => "Strings hein"
-//        case listInts: List[Int] => "Ints hein"
+//        case listStrings: List => "Strings hein"
+//        case listInts: List => "Ints hein"
 //    }
 
 
